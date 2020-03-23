@@ -8,8 +8,9 @@ verify_ssl = true
 [packages]
 flask = "*"
 requests-oauthlib = "==1.3.0"
-tweet-parser = "==1.13.2"
+tweet-parser = {editable = true,git = "https://github.com/flaviomartins/tweet_parser.git",ref = "master"}
 surt = "==0.3.1"
+twarc = "==1.7.5"
 
 [requires]
 python_version = "3.8"
