@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "81f1811d06244d7bb337f6c5633823c6b468c353a2d430acd1a7b5fe9ae01ea4"
+            "sha256": "9d6a0ef522ca55edc90b8f6929791887b12baa3c87b83aa5519857944cd060cf"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -167,6 +167,13 @@
             ],
             "version": "==2.8.1"
         },
+        "redis": {
+            "hashes": [
+                "sha256:0dcfb335921b88a850d461dc255ff4708294943322bd55de6cfd68972490ca1f",
+                "sha256:b205cffd05ebfd0a468db74f0eedbff8df1a7bfc47521516ade4692991bb0833"
+            ],
+            "version": "==3.4.1"
+        },
         "requests": {
             "hashes": [
                 "sha256:43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee",
@@ -185,6 +192,14 @@
             "hashes": [
                 "sha256:7f71572defaecd16372f9006f33c2ec8c077c3cfa6f5911a9a90202beb513f3d",
                 "sha256:b4261601a71fd721a8bd6d7aa1cc1d6a8a93b4a9f5e96626f8e4d91e8beeaa6a"
+            ],
+            "index": "pypi",
+            "version": "==1.3.0"
+        },
+        "rq": {
+            "hashes": [
+                "sha256:49c9149fa9301f98d918f3042f36bed4252d37193d222a1ce8b0e25886442377",
+                "sha256:c3e65a8ba5e59287308f23679f7fe729b9380531e4f6cdabb2dee99b82834811"
             ],
             "index": "pypi",
             "version": "==1.3.0"
@@ -220,7 +235,7 @@
         "tweet-parser": {
             "editable": true,
             "git": "https://github.com/flaviomartins/tweet_parser.git",
-            "ref": "3435de8367d36b483a6cfd8d46cc28694ee8a42e"
+            "ref": "514c470135b522c3dc5238aaba2b85375057665a"
         },
         "urllib3": {
             "hashes": [
