@@ -28,7 +28,8 @@ def surt_task(url):
     log.debug(f"Archiving {url} to IA")
     try:
         ia_url, ia_captured = savepagenow.capture_or_cache(
-            url, user_agent="revisionista (https://revisionista.pt)"
+            # user agents need to be whitelisted?
+            url  # , user_agent="revisionista (https://revisionista.pt)"
         )
         log.info(f"Saving {url} memento URL {ia_url}")
     except Exception as e:
