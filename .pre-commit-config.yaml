@@ -2,12 +2,12 @@ exclude: 'docs|node_modules|migrations|.git|.tox|.idea'
 
 repos:
 -   repo: https://github.com/psf/black
-    rev: 19.10b0
+    rev: 25.1.0
     hooks:
     -   id: black
         language_version: python3.8
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.4.0
+    rev: v5.0.0
     hooks:
     -   id: check-yaml
     -   id: check-json
@@ -20,18 +20,18 @@ repos:
     -   id: end-of-file-fixer
         exclude_types: [svg]
     -   id: debug-statements
--   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.7.9
+-   repo: https://github.com/PyCQA/flake8
+    rev: 7.2.0
     hooks:
     -   id: flake8
         exclude: wsgi.py
--   repo: https://github.com/asottile/reorder_python_imports
-    rev: v1.9.0
+-   repo: https://github.com/asottile/reorder-python-imports
+    rev: v3.14.0
     hooks:
     -   id: reorder-python-imports
         language_version: python3
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v1.25.3
+    rev: v3.19.1
     hooks:
     -   id: pyupgrade
         args: [--py37-plus]
